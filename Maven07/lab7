@@ -1,0 +1,18 @@
+pakiet to otoczka na wybrane klasy
+package is like a folder
+
+trzeba sie odwolywac do klasy poprzez pakiet w którym jest utworzona
+
+w pom.xml konfigurujemy rzeczy zwiazane z maven'em
+
+w^ towrzymy znacznik "dependencies" do "wklejania paczek"
+
+record is a special type of class
+public record Account (String name, String password) {
+
+} -> we already have all getters and setters
+
+
+SET:
+we can define keys under some name, and it guarantees no duplicates of those
+
